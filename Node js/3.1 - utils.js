@@ -1,2 +1,4 @@
 const sayHI = (name) => console.log(`Hello ${name}!`);
-const daySchool = (school) => console.log(`I am studying in ${school}`)
+const saySchool = (school) => console.log(`You are from ${school}`)
+
+module.exports = {sayHI,saySchool}
