@@ -1,0 +1,1 @@
+Here all the files are kept in a folder 'public' and all can be linked at once

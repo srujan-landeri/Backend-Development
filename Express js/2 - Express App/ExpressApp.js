@@ -1,16 +1,15 @@
 const express = require('express');
 const app = express();
 
-// adding HomePage
+// adding external HTML
 app.get('/',(req, res)=>{
-    res.status(200).send('HomePage')
+    res.status(200).sendFile(__dirname + '/index.html')
 })
 
-// adding AboutPage
-app.get('/about',(req,res) => {
-    res.status(200).send('About Page')
+// adding external style.css
+app.get('/style.css',(req,res)=>{
+    res.status(200).sendFile(__dirname+'/style.css')
 })
-
 // rest all paths
 app.all('*',(req,res) => {
     res.status(404).send('<h1>Resource not found</h1>')
