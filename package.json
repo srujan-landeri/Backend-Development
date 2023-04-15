@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This repository contains all the files I created while practicing backend development. I aim to work on various technologies and frameworks like Node.js, Express, MongoDB, and PostgreSQL to build RESTful APIs, handle user authentication, and manage databases.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srujan-landeri/Backend-Development.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srujan-landeri/Backend-Development/issues"
+  },
+  "homepage": "https://github.com/srujan-landeri/Backend-Development#readme"
+}
