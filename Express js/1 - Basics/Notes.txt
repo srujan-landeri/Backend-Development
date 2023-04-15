@@ -1,0 +1,6 @@
+We need to import each file and need to write based on current url 
+which is an overhead. 
+Also we need to mention content-type for each different file like:
+html,css,js,image,svg,plain etc..
+
+Hence we use Express js
