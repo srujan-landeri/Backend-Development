@@ -1,0 +1,9 @@
+
+methods which are mostly used
+
+app.get()
+app.post()
+app.put()
+app.delete()
+app.all()
+app.use()
