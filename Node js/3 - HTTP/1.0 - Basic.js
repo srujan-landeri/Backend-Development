@@ -8,7 +8,7 @@ const server = http.createServer((req,res) => {
             `
                 <html>
                     <h1>Welcome to the HomePage</h1>
-                </html>
+                </html> 
             `
         )
     }
